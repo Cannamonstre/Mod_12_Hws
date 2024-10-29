@@ -1,0 +1,17 @@
+2024-10-29 12:01:06,445 | INFO | Logging setup completed
+2024-10-29 12:01:06,446 | WARNING | Incorrect type for Runner object
+Traceback (most recent call last):
+  File "G:\PythonProjects\TheBeginning\Homeworks\Mod_12\Mod_12_4.py", line 87, in test_run
+    mr_runner_2 = Runner(444)
+                  ^^^^^^^^^^^
+  File "G:\PythonProjects\TheBeginning\Homeworks\Mod_12\Mod_12_4.py", line 23, in __init__
+    raise TypeError(f'Name can only be a string, now {type(name).__name__}')
+TypeError: Name can only be a string, now int
+2024-10-29 12:01:06,447 | WARNING | Incorrect speed for Runner object
+Traceback (most recent call last):
+  File "G:\PythonProjects\TheBeginning\Homeworks\Mod_12\Mod_12_4.py", line 74, in test_walk
+    mr_runner_1 = Runner('Alex', -4)
+                  ^^^^^^^^^^^^^^^^^^
+  File "G:\PythonProjects\TheBeginning\Homeworks\Mod_12\Mod_12_4.py", line 28, in __init__
+    raise ValueError(f"Speed can't be negative, now {speed}")
+ValueError: Speed can't be negative, now -4
